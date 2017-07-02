@@ -5,16 +5,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         tools:context="com.samples.camera.callactivities.CallCameraActivity">
 
     <Button
             android:id="@+id/bImageCapture"
-            android:textColor="Image Capture"
+            android:text="Image Capture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     <Button
             android:id="@+id/bVideoCapture"
-            android:textColor="Video Capture"
+            android:text="Video Capture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     <Button
